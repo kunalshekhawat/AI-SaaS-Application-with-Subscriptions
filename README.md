@@ -1,71 +1,138 @@
-# 🚀 Quick.ai - AI-Powered Content Creation Platform# 🚀 Quick.ai - AI-Powered Content Creation Platform# 🚀 Quick.ai - AI-Powered Content Creation Platform# 🚀 Quick.ai - Premium AI Content Creation Platform
+# Quick.ai - AI SaaS Application with Subscriptions# 🚀 Quick.ai - AI-Powered Content Creation Platform# 🚀 Quick.ai - AI-Powered Content Creation Platform# 🚀 Quick.ai - AI-Powered Content Creation Platform# 🚀 Quick.ai - Premium AI Content Creation Platform
 
 
 
-[![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+A comprehensive AI-powered content creation platform built with React, Node.js, and modern web technologies. This full-stack application provides premium AI tools for content generation, image processing, and productivity enhancement.
 
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)[![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org/)
+## Features[![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 
-[![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+**AI Content Generation:**[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+
+- Article Writer: Generate SEO-optimized articles using Gemini AI
+
+- Blog Title Generator: Create compelling titles for blog posts[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)[![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+
+- AI Image Generator: Produce high-quality images using ClipDrop API
+
+- Resume Reviewer: Get professional feedback on resume content[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org/)
+
+
+
+**Image Processing Tools:**[![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+
+- Background Removal: Clean background removal using Cloudinary
+
+- Object Removal: Remove unwanted objects from images intelligently[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+- Image Upload and Processing: Secure image handling with cloud storage
 
 [![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)[![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)[![React](https://img.shields.io/badge/React-19.1.0-blue.svg)](https://reactjs.org/)
 
-> **Transform your content creation workflow with cutting-edge AI technology. Generate articles, create stunning images, and enhance your productivity with Quick.ai's premium AI tools.**
+**Subscription & Authentication:**
 
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org/)
+- Freemium Model: 10 free AI generations per month> **Transform your content creation workflow with cutting-edge AI technology. Generate articles, create stunning images, and enhance your productivity with Quick.ai's premium AI tools.**
+
+- Premium Plan: Unlimited access for ₹19/month via Stripe
+
+- Secure Authentication: User management with Clerk[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org/)
+
+- Payment Processing: Integrated Stripe payment gateway
 
 ## 🌟 Features
 
+## Technology Stack
+
 [![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)[![Node.js](https://img.shields.io/badge/Node.js-Express-green.svg)](https://nodejs.org/)
 
-### 🤖 **AI Content Generation**
+**Frontend:** React 19.1.0, Vite 7.0.4, Tailwind CSS 4.1.11, React Router, Clerk Auth, Stripe Elements
 
-- **📝 Article Writer** - Generate high-quality, SEO-optimized articles[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+**Backend:** Node.js, Express.js 5.1.0, PostgreSQL (Neon Database), Clerk Express### 🤖 **AI Content Generation**
+
+**AI Services:** OpenAI/Gemini API, ClipDrop API for image generation
+
+**Cloud Services:** Cloudinary for image storage, Stripe for payments- **📝 Article Writer** - Generate high-quality, SEO-optimized articles[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+**Deployment:** Vercel (Frontend), Railway/Render (Backend)
 
 - **💡 Blog Title Generator** - Create compelling titles that drive engagement  
 
+## Quick Start
+
 - **🎨 AI Image Generator** - Produce stunning visuals with advanced AI models[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)[![Stripe](https://img.shields.io/badge/Payments-Stripe-purple.svg)](https://stripe.com/)
 
-- **📄 Resume Reviewer** - Get professional feedback and improvement suggestions
+1. Clone repository:
 
-> **Transform your content creation workflow with cutting-edge AI technology. Generate articles, create stunning images, and enhance your productivity with Quick.ai's premium AI tools.**
+```bash- **📄 Resume Reviewer** - Get professional feedback and improvement suggestions
+
+git clone https://github.com/kunalshekhawat/AI-SaaS-Application-with-Subscriptions.git
+
+cd AI-SaaS-Application-with-Subscriptions> **Transform your content creation workflow with cutting-edge AI technology. Generate articles, create stunning images, and enhance your productivity with Quick.ai's premium AI tools.**
+
+```
 
 ### 🛠️ **Image Processing Tools**
 
-- **🖼️ Background Removal** - Clean, professional background removal[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org/)[![Clerk](https://img.shields.io/badge/Auth-Clerk-orange.svg)](https://clerk.dev/)
+2. Backend setup:
 
-- **✂️ Object Removal** - Intelligently remove unwanted objects from images
+```bash- **🖼️ Background Removal** - Clean, professional background removal[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org/)[![Clerk](https://img.shields.io/badge/Auth-Clerk-orange.svg)](https://clerk.dev/)
 
-- **🎭 Style Transfer** - Transform images with artistic AI styles## 🌟 Features
+cd quickai-server && npm install
+
+# Add environment variables to .env file- **✂️ Object Removal** - Intelligently remove unwanted objects from images
+
+npm start  # Runs on http://localhost:3000
+
+```- **🎭 Style Transfer** - Transform images with artistic AI styles## 🌟 Features
 
 
 
-### 💎 **Premium Subscription**[![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
+3. Frontend setup:
 
-- **🆓 Free Tier** - 10 AI generations per month
+```bash
+
+cd quickai-client && npm install  ### 💎 **Premium Subscription**[![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
+
+# Add environment variables to .env file
+
+npm run dev  # Runs on http://localhost:5173- **🆓 Free Tier** - 10 AI generations per month
+
+```
 
 - **⭐ Premium Plan** - Unlimited access for just ₹19/month### 🤖 **AI Content Generation**
 
+## Environment Configuration
+
 - **💳 Secure Payments** - Powered by Stripe with test card support
 
-- **🔐 User Authentication** - Secure login with Clerk- **📝 Article Writer** - Generate high-quality, SEO-optimized articles[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)> **Transform your content creation with AI-powered tools. Write articles, generate images, and streamline your workflow with premium AI capabilities.**
+Backend (.env): DATABASE_URL, CLERK_PUBLISHABLE_KEY, CLERK_SECRET_KEY, GEMINI_API_KEY, CLIPDROP_API_KEY, CLOUDINARY credentials, STRIPE_SECRET_KEY
+
+Frontend (.env): VITE_CLERK_PUBLISHABLE_KEY, VITE_BASE_URL- **🔐 User Authentication** - Secure login with Clerk- **📝 Article Writer** - Generate high-quality, SEO-optimized articles[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)> **Transform your content creation with AI-powered tools. Write articles, generate images, and streamline your workflow with premium AI capabilities.**
 
 
 
-### 📊 **User Dashboard**- **💡 Blog Title Generator** - Create compelling titles that drive engagement  
+## Testing
 
-- **📈 Creation History** - Track all your AI-generated content
 
-- **👥 Community Hub** - Share and discover content from other creators- **🎨 AI Image Generator** - Produce stunning visuals with advanced AI models
+
+Use Stripe test card: 4242 4242 4242 4242 (any future expiry/CVC)### 📊 **User Dashboard**- **💡 Blog Title Generator** - Create compelling titles that drive engagement  
+
+
+
+## Developer- **📈 Creation History** - Track all your AI-generated content
+
+
+
+**Saurabh Yadav** - Full-Stack Developer- **👥 Community Hub** - Share and discover content from other creators- **🎨 AI Image Generator** - Produce stunning visuals with advanced AI models
+
+GitHub: [@iamyadavsaurabh](https://github.com/iamyadavsaurabh) | Email: saurabh181203@gmail.com
 
 - **📱 Responsive Design** - Perfect experience across all devices
 
+This project demonstrates modern full-stack development with AI integration, payment processing, and scalable architecture suitable for production deployment.
 - **📄 Resume Reviewer** - Get professional feedback and improvement suggestions
 
 ## 🏗️ Technology Stack
